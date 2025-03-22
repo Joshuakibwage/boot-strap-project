@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Home Furniture</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">Furniture</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#collections">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featured">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="btn btn-outline-dark" href="#"> Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Transform Your Space With Timeless Elegance</h1>
+                    <p class="lead mb-4">Discover our curated collection of beautiful, functional furniture designed to bring comfort and style to your home.</p>
+                    <div class="d-grid gap-2 d-md-flex">
+                        <a href="#collections" class="btn btn-dark btn-lg px-4 me-md-2">Shop Now</a>
+                        <a href="#featured" class="btn btn-outline-dark btn-lg px-4">New Arrivals</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <img src="images/hero-image.jpg" alt="Living room furniture" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="py-5" id="collections">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Browse Our Collections</h2>
+                <p class="lead">Find the perfect pieces for every room in your home</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card category-card border-0 shadow">
+                        <img src="/images/living-room.jpg" class="card-img-top" alt="Living Room">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Living Room</h3>
+                            <a href="#" class="btn btn-outline-dark">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card border-0 shadow">
+                        <img src="/images/bedroom.jpg" class="card-img-top" alt="Bedroom">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Bedroom</h3>
+                            <a href="#" class="btn btn-outline-dark">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card border-0 shadow">
+                        <img src="/images/dining.jpg" class="card-img-top" alt="Dining Room">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Dining Room</h3>
+                            <a href="#" class="btn btn-outline-dark">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="py-5 bg-light" id="featured">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Featured Products</h2>
+                <p class="lead">Our most popular items, loved by customers</p>
+            </div>
+            <div class="row">
+                <!-- Product 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card product-card border-0 shadow h-100">
+                        
+                        <img src="/images/sofa.jpg" class="card-img-top" alt="Modern Sofa">
+                        <div class="card-body">
+                            <h5 class="card-title">Modern Linen Sofa</h5>
+                            <p class="card-text text-muted">Living Room</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class=" fw-bold">$899</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card product-card border-0 shadow h-100">
+                        <img src="/images/coffetable.jpg" class="card-img-top" alt="Coffee Table">
+                        <div class="card-body">
+                            <h5 class="card-title">Walnut Coffee Table</h5>
+                            <p class="card-text text-muted">Living Room</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="fw-bold">$349</span>
+                                </div>
+                 
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card product-card border-0 shadow h-100">
+                        <img src="/images/5piece.jpg" class="card-img-top" alt="Dining Set">
+                        <div class="card-body">
+                            <h5 class="card-title">5-Piece Dining Set</h5>
+                            <p class="card-text text-muted">Dining Room</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="fw-bold">$799</span>
+                                </div>
+                                 
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card product-card border-0 shadow h-100">
+                        
+                        <img src="/images/queenbedroom.jpg" class="card-img-top" alt="Bedroom Set">
+                        <div class="card-body">
+                            <h5 class="card-title">Queen Bedroom Set</h5>
+                            <p class="card-text text-muted">Bedroom</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="fw-bold">$1,299</span>
+                                </div>
+                  
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-dark btn-lg">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="/images/ourstory.jpg" alt="Our workshop" class="img-fluid rounded shadow mb-4 mb-lg-0">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">Our Story</h2>
+                    <p class="lead">Founded in 2010, Cozy Home Furniture has been dedicated to crafting quality furniture that combines functionality, comfort, and timeless design.</p>
+                    <p>We work with skilled artisans and use only the finest materials to create pieces that will bring joy to your home for years to come. Every item in our collection is thoughtfully designed with both aesthetics and practicality in mind.</p>
+                    <p>Our commitment to sustainability means we source responsibly harvested wood and use eco-friendly manufacturing processes to reduce our environmental impact.</p>
+                    <a href="#" class="btn btn-outline-dark">Learn More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">What Our Customers Say</h2>
+                <p class="lead">Real reviews from happy customers</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial shadow-sm">
+                        <div class="text-warning mb-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="mb-3">"The quality of our new dining set exceeded my expectations. The craftsmanship is superb, and it looks even better in person than in the photos."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <img src="/images/user-01.png" class="rounded-circle" alt="Customer">
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Sarah Johnson</h6>
+                                <small class="text-muted">Chicago, IL</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial shadow-sm">
+                        <div class="text-warning mb-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="mb-3">"Fast delivery, excellent customer service, and the sofa I ordered is both beautiful and comfortable. I'll definitely be shopping here again."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <img src="/images/user-02.png" class="rounded-circle" alt="Customer">
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Michael Rodriguez</h6>
+                                <small class="text-muted">Austin, TX</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial shadow-sm">
+                        <div class="text-warning mb-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p class="mb-3">"We've furnished our entire home with pieces from Cozy Home. The quality is consistent, and everything complements each other beautifully."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <img src="/images/user-03.png" class="rounded-circle" alt="Customer">
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Emily Parker</h6>
+                                <small class="text-muted">Seattle, WA</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offer Banner -->
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h2 class="fw-bold mb-3">Spring Sale: 20% Off All Living Room Furniture</h2>
+                    <p class="lead mb-md-0">Use code SPRING25 at checkout. Offer ends April 15th.</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <a href="#" class="btn btn-light btn-lg">Shop the Sale</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5" id="contact">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Get In Touch</h2>
+                <p class="lead">We'd love to hear from you</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark btn-lg">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-light p-4 h-100 rounded">
+                        <h3 class="mb-4">Visit Our Showroom</h3>
+                        <p>Experience our furniture in person and get expert advice from our design consultants.</p>
+                        <div class="mb-4">
+                            <h5><i class="bi bi-geo-alt me-2"></i> Location</h5>
+                            <p class="ms-4 mb-0">123 Furniture Lane</p>
+                            <p class="ms-4 mb-0">Nairobi, nai 10001</p>
+                        </div>
+                        <div class="mb-4">
+                            <h5><i class="bi bi-clock me-2"></i> Hours</h5>
+                            <p class="ms-4 mb-0">Monday - Saturday: 10am - 8pm</p>
+                            <p class="ms-4 mb-0">Sunday: 11am - 6pm</p>
+                        </div>
+                        <div class="mb-4">
+                            <h5><i class="bi bi-telephone me-2"></i> Contact</h5>
+                            <p class="ms-4 mb-0">Phone: (333) 123-4567</p>
+                            <p class="ms-4 mb-0">Email: info@cozyhome.com</p>
+                        </div>
+                         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h3 class="mb-4">Subscribe to Our Newsletter</h3>
+                    <p class="mb-5">Stay updated with our newest collections, special offers, and design tips.</p>
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <form class="d-flex">
+                                <input class="form-control form-control-lg me-2" type="email" placeholder="Your email address">
+                                <button class="btn btn-dark btn-lg" type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h3 class="h4 mb-4">Cozy Home Furniture</h3>
+                    <p>Quality furniture for every home, designed with comfort and style in mind.</p>
+                    <div class="mb-4">
+                        <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-pinterest"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+                    <h5 class="mb-4">Shop</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Living Room</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Bedroom</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Dining Room</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Office</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Outdoor</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+                    <h5 class="mb-4">Company</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Careers</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Press</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Sustainability</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Affiliates</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+                    <h5 class="mb-4">Support</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Help Center</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Delivery</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Returns</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Warranty</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+                    <h5 class="mb-4">Legal</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Terms of Service</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Accessibility</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Cookie Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">© 2025 Cozy Home Furniture. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <img src="/api/placeholder/200/30" alt="Payment methods" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
